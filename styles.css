@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Times New Roman', Times, serif;
+    align-items: center;
+}
+
+input {
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    background-color:beige
+}
+
+button {
+    padding: 10px 20px;
+    background-color: silver;
+}
+
+button:hover{
+    background-color: darkslategrey;
+}
+
+#display-name {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(12, 12, 37);
+}
